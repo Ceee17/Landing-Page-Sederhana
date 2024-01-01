@@ -28,13 +28,12 @@
         margin-right: 0px;
       }
 
-      /* Adjusting the icon size */
       .dropdown-icon {
         width: 16px;
         height: 16px;
         transition: transform 0.4s ease;
       }
-
+      /* biar responsive icon feather nya */
       .dropdown:hover .dropdown-icon {
         transform: rotate(180deg);
       }
@@ -58,10 +57,10 @@
     </style>
   </head>
   <!-- Landing page -->
-  <body class="bg-blue-100">
+  <body class="bg-neutral">
     <!-- Navbar -->
     <nav>
-      <div class="navbar bg-base-200">
+      <div class="navbar bg-base-200 shadow-lg">
         <!-- <div class="flex-1"> -->
         <div class="navbar-start ml-5 p-1">
           <a id="logo" class="btn btn-ghost normal-case" href="index.html"><span id="J" class="">J</span>Creative</a>
@@ -130,15 +129,5 @@
     <script>
       feather.replace();
     </script>
-    <!-- <script>
-      function toggleDropdown(element) {
-        element.classList.toggle("dropdown-active");
-        feather.replace(); // Re-initialize feather icons
-      }
-
-      document.addEventListener("DOMContentLoaded", function () {
-        feather.replace(); // Initial feather icons replacement
-      });
-    </script> -->
   </body>
 </html>
